@@ -33,7 +33,7 @@
 	[self.audioPlayer play];  
 	
 
-	NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"05121_Don't Stop Believin'_Journey" ofType:@"mp3"]];
+	NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"2141" ofType:@"mp3"]];
 	
 	self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
 	
@@ -63,7 +63,7 @@
 }
 
 -(void)readFile {
-	NSString *fileName = [[NSBundle mainBundle] pathForResource:@"05121_Don't Stop Believin'_Journey" ofType:@"lrc"];
+	NSString *fileName = [[NSBundle mainBundle] pathForResource:@"2141" ofType:@"lrc"];
 	NSError *error;
 	NSString *content = [[NSString alloc] initWithContentsOfFile:fileName
 													usedEncoding:nil

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204F737F1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 204F737D1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.mp3 */; };
-		204F73801647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 204F737E1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.lrc */; };
 		204F73831647AC1800D47794 /* Futura LT Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 204F73811647AC1700D47794 /* Futura LT Book.ttf */; };
 		204F73841647AC1800D47794 /* Futura LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 204F73821647AC1700D47794 /* Futura LT Bold.ttf */; };
 		208166131568C4F800D288D7 /* LyricParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 208166121568C4F800D288D7 /* LyricParser.m */; };
@@ -23,11 +21,11 @@
 		20FB3CEB1567EFA500F4AC61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3CEA1567EFA500F4AC61 /* ViewController.m */; };
 		20FB3CEE1567EFA600F4AC61 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3CEC1567EFA600F4AC61 /* ViewController.xib */; };
 		21CA51F2156FA01000EA16A9 /* onsec.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21CA51F1156FA01000EA16A9 /* onsec.mp3 */; };
+		AB3E65681647C0D10067AC5C /* 2141.lrc in Resources */ = {isa = PBXBuildFile; fileRef = AB3E65671647C0D10067AC5C /* 2141.lrc */; };
+		AB3E656A1647C0DB0067AC5C /* 2141.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB3E65691647C0DB0067AC5C /* 2141.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		204F737D1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "05121_Don't Stop Believin'_Journey.mp3"; path = "../../../../Dropbox/Duets Shared/lrc sample/05121_Don't Stop Believin'_Journey.mp3"; sourceTree = "<group>"; };
-		204F737E1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "05121_Don't Stop Believin'_Journey.lrc"; path = "../../../../Dropbox/Duets Shared/lrc sample/05121_Don't Stop Believin'_Journey.lrc"; sourceTree = "<group>"; };
 		204F73811647AC1700D47794 /* Futura LT Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Book.ttf"; sourceTree = "<group>"; };
 		204F73821647AC1700D47794 /* Futura LT Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Bold.ttf"; sourceTree = "<group>"; };
 		208166111568C4F800D288D7 /* LyricParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricParser.h; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		20FB3CEA1567EFA500F4AC61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20FB3CED1567EFA600F4AC61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		21CA51F1156FA01000EA16A9 /* onsec.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = onsec.mp3; sourceTree = "<group>"; };
+		AB3E65671647C0D10067AC5C /* 2141.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2141.lrc; sourceTree = "<group>"; };
+		AB3E65691647C0DB0067AC5C /* 2141.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2141.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +97,8 @@
 		20FB3CDD1567EFA500F4AC61 /* LyricView */ = {
 			isa = PBXGroup;
 			children = (
+				AB3E65671647C0D10067AC5C /* 2141.lrc */,
+				AB3E65691647C0DB0067AC5C /* 2141.mp3 */,
 				204F73811647AC1700D47794 /* Futura LT Book.ttf */,
 				204F73821647AC1700D47794 /* Futura LT Bold.ttf */,
 				21CA51F1156FA01000EA16A9 /* onsec.mp3 */,
@@ -105,8 +107,6 @@
 				20FB3CE91567EFA500F4AC61 /* ViewController.h */,
 				20FB3CEA1567EFA500F4AC61 /* ViewController.m */,
 				20FB3CEC1567EFA600F4AC61 /* ViewController.xib */,
-				204F737D1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.mp3 */,
-				204F737E1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.lrc */,
 				20F9A5B3156D363200ED44D7 /* NSMutableArray+Reverse.h */,
 				20F9A5B4156D363200ED44D7 /* NSMutableArray+Reverse.m */,
 				20FB3CDE1567EFA500F4AC61 /* Supporting Files */,
@@ -180,10 +180,10 @@
 				20FB3CE21567EFA500F4AC61 /* InfoPlist.strings in Resources */,
 				20FB3CEE1567EFA600F4AC61 /* ViewController.xib in Resources */,
 				21CA51F2156FA01000EA16A9 /* onsec.mp3 in Resources */,
-				204F737F1647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.mp3 in Resources */,
-				204F73801647ABFA00D47794 /* 05121_Don't Stop Believin'_Journey.lrc in Resources */,
 				204F73831647AC1800D47794 /* Futura LT Book.ttf in Resources */,
 				204F73841647AC1800D47794 /* Futura LT Bold.ttf in Resources */,
+				AB3E65681647C0D10067AC5C /* 2141.lrc in Resources */,
+				AB3E656A1647C0DB0067AC5C /* 2141.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
